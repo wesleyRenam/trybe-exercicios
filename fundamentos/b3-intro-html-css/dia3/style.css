@@ -1,0 +1,45 @@
+.A{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+.B{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+    padding: 20px;
+}
+.C{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+    padding: 20px;
+    margin: 30px;
+}
+.D{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+    padding: 20px;
+    margin: 30px;
+    border: 5px solid black;
+}
+body{
+    background-color:bisque;
+}
