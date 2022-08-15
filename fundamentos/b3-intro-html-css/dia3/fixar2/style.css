@@ -1,0 +1,43 @@
+div:hover{
+    border: 2px solid black;
+}
+div:nth-of-type(1){
+    background-color: #00DB96;
+}
+div:nth-of-type(2){
+    background-color: #0C67F2;
+}
+div:nth-of-type(3){
+    background-color: #57F500;
+    height: 50px;
+    vertical-align: middle;
+}
+div:nth-of-type(4){
+    background-color: #26004F;
+}
+div:nth-of-type(5){
+    background-color: #83DBC7;
+}
+div:nth-of-type(1) > h3 {
+    font-family: monospace;
+    color: purple;
+    font-style: italic;
+}
+div:nth-of-type(2) > h3{
+    font-family: Arial;
+    color: crimson;
+}
+div:nth-of-type(3) > h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:darkgreen;
+    font-style: italic;
+}
+div:nth-of-type(4) > h3{
+    font-family: 'Times New Roman', Times, serif;
+    color:hotpink;
+}
+div:nth-of-type(5) > h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkslategray
+    font-style: italic;
+}
