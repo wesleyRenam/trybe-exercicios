@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+  }
+#lugares{
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#lugares ul{
+    list-style: none;
+}
+  .first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    margin-left: 32%;
+    display: block;
+  }
+
+  .second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+  }
+  li{
+    display: inline-block;
+  }
+#lugares ul>:nth-of-type(2){
+    display: inline-block;
+ 
+}
+#lugares ul>:nth-of-type(3){
+    display: inline-block;
+    text-align: center;
+}
+
+#premio {
+    display: block;
+    text-align: center;
+}
+#premio ul{
+    list-style: none;
+}
