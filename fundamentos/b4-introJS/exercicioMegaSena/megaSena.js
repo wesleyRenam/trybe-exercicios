@@ -1,4 +1,3 @@
-//let n1 = 12, n2 = 16, n3 = 26, n4 = 34, n5 = 56, n6 = 15;
 let numMegaSena = []
 let numAposta = [12,16,5,17,18,22]
 let acertos = 0;
