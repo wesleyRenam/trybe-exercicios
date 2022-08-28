@@ -1,0 +1,14 @@
+const paragraph = document.getElementById("paragraph");
+paragraph.style.color = "blue";
+let titulo = document.getElementById("page-title");
+titulo.innerText = "Pantera Negra";
+let secondParagraph = document.getElementById("second-paragraph");
+secondParagraph.style.color="green"
+secondParagraph.innerText = " Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ipsum, dolorem architecto cum";
+let subtitle = document.getElementById("subtitle");
+subtitle.innerHTML = "Hello World "
+let titulos = document.getElementsByClassName("title")
+titulos[0].style.fontFamily = "Arial" 
+titulos[0].style.color = "#9DE6D0"
+let subtitulo = document.getElementsByTagName("h4")
+subtitulo[0].style.fontSize = "15px"
