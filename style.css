@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    border: 1px solid black;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section .ola2{
+ background-color: blue;
+}
